@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+body {
+  background-color: #f0f0f0; /* Provided background color for the body */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333; /* Provided background color for the header */
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.content {
+  display: flex; /* Use flexbox to arrange items */
+}
+
+.latest-news-section,
+.main-article-section,
+.pictorial-news-section {
+  flex: 1; /* Each section takes up equal space */
+  padding: 20px;
+}
+
+.latest-news-section {
+  background-color: #f8f8f8; /* Provided background color for the latest news section */
+}
+
+.main-article-section {
+  background-color: #ddd; /* Provided background color for the main article section */
+}
+
+.pictorial-news-section {
+  background-color: #f8f8f8; /* Provided background color for the pictorial news section */
+}
+
+.latest-news-section h2,
+.main-article-section h2,
+.pictorial-news-section h2 {
+  margin-top: 0;
+}
